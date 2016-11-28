@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03E85421C1E3F1E004B5463 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E85411C1E3F1E004B5463 /* SettingsViewController.swift */; };
 		E6BA309A19E24A3A0045C2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA309919E24A3A0045C2BA /* AppDelegate.swift */; };
 		E6BA309C19E24A3A0045C2BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA309B19E24A3A0045C2BA /* ViewController.swift */; };
 		E6BA309F19E24A3A0045C2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BA309D19E24A3A0045C2BA /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A03E85411C1E3F1E004B5463 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E6BA309419E24A3A0045C2BA /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6BA309819E24A3A0045C2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6BA309919E24A3A0045C2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				E6BA309919E24A3A0045C2BA /* AppDelegate.swift */,
 				E6BA309B19E24A3A0045C2BA /* ViewController.swift */,
+				A03E85411C1E3F1E004B5463 /* SettingsViewController.swift */,
 				E6BA309D19E24A3A0045C2BA /* Main.storyboard */,
 				E6BA30A019E24A3A0045C2BA /* Images.xcassets */,
 				E6BA30A219E24A3A0045C2BA /* LaunchScreen.xib */,
@@ -156,6 +159,7 @@
 		E6BA308C19E24A3A0045C2BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Mel Ludowise";
 				TargetAttributes = {
@@ -214,6 +218,7 @@
 			files = (
 				E6BA309C19E24A3A0045C2BA /* ViewController.swift in Sources */,
 				E6BA309A19E24A3A0045C2BA /* AppDelegate.swift in Sources */,
+				A03E85421C1E3F1E004B5463 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +412,7 @@
 				E6BA30B519E24A3A0045C2BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6BA30B619E24A3A0045C2BA /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +421,7 @@
 				E6BA30B819E24A3A0045C2BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

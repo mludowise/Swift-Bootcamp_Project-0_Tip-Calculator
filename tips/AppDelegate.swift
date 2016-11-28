@@ -13,9 +13,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    private let percentageDefaults = [18, 20, 25]
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
+        let lowValue = defaults.integerForKey(kLowValueKey)
+        let mediumValue = defaults.integerForKey(kMediumValueKey)
+        let highValue = defaults.integerForKey(kHighValueKey)
+        
+        if (lowValue == 0) {
+            defaults.setInteger(percentageDefaults[0], forKey: kLowValueKey)
+        }
+        if (mediumValue == 0) {
+            defaults.setInteger(percentageDefaults[1], forKey: kMediumValueKey)
+        }
+        if (highValue == 0) {
+            defaults.setInteger(percentageDefaults[2], forKey: kHighValueKey)
+        }
+
         return true
     }
 
